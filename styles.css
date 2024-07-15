@@ -1,0 +1,63 @@
+/* General styling */
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8ff;
+  margin: 0;
+}
+
+.calculator {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+/* Display styling */
+.display {
+  background-color: #ffefd5;
+  padding: 20px;
+  text-align: right;
+}
+
+.display input {
+  width: 100%;
+  border: none;
+  background: none;
+  font-size: 2em;
+  text-align: right;
+  padding: 10px;
+  color: #333333;
+}
+
+/* Buttons styling */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 20px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff69b4;
+}
+
+.btn:active {
+  background-color: #ff1493;
+}
+
+.btn:focus {
+  outline: none;
+}
